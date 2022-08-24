@@ -1,4 +1,27 @@
-
-
-
-sadsad
+{
+    "uuid": "56638f7a-11f4-46da-9c95-f40028d8fe29",
+    "timestamp": 1568209411,
+    "team": "53218916-3f0a-4f28-8a32-494479fc1686",
+    "timezone": "Europe/Berlin",
+    "trigger_uuid": "7ce115ca-9112-4aa6-8fa7-58dff79e7434",
+    "trigger_name": "Last measurement of CPU Utilization idle (Total*) < 85%",
+    "trigger_description": "",
+    "trigger_severity": "warning",
+    "trigger_footnote": "* Total = Average of all CPUs and CPU cores",
+    "link_text": null,
+    "link_url": null,
+    "check_uuid": "b4491862-eeaf-4bfa-9cea-812265fa1519",
+    "check_name": "The rule Last measurement of CPU Utilization idle (Total*) < 85% has triggered an alert.",
+    "check_last_value": "11.63",
+    "host_uuid": "b4491862-eeaf-4bfa-9cea-812265fa1519",
+    "host_name": "Google Compute Instance",
+    "host_connect": "35.242.240.164",
+    "host_description": "",
+    "host_location": null,
+    "check_last_value_template": "CPU Utilization idle (Total*): %s%%",
+    "messagetype": "problem",
+    "total_alerts": 35,
+    "total_warnings": 3,
+    "total_hosts": 48,
+    "check_last_timestamp": 1568209411
+}
