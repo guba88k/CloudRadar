@@ -16,7 +16,7 @@ app.set('port', process.env.PORT || 4000);
 // Initialize discord with our webhook
 // https://discordapp.com/api/webhooks/id/token
 const client = new discord.Client();
-const webhookClient = new discord.WebhookClient('1011908640619376680', 'MTAxMTkwODY0MDYxOTM3NjY4MA.G1NO2D.MyGFH_sC2UgvZQw9A_bS4k4W-xqR3kYIMV2e-g');
+const webhookClient = new discord.WebhookClient('id', 'token');
 
 // Tell express to use body-parser's JSON parsing
 app.use(bodyParser.json());
